@@ -30,6 +30,8 @@ However, if you use SASS i advise you to create a specific `animate_and_override
 and include the `animate.css` via an Import statement:
     
     @import 'animate';
+    
+UPDATE! if you are using Rails 6 with webpacker just put: import(“animate.css”) on your application.js (located at 'yourapp/app/assets/javascript/packs/application.js'
 
 ## Contributing
 
